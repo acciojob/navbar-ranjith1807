@@ -1,1 +1,35 @@
-/*  your css code here. If applicable */
+.navbar1{
+	padding:0px;
+	margin:0px;
+	background-color:#6e072d;
+	color:white;
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.navbar1 ul{
+	display:flex;
+	padding:0px;
+	margin:0px;
+	font-size:18px;
+}
+.navbar1 li{
+	list-style:none;
+	padding:18px 27px;
+	border-right:2px solid white;
+}
+.navbar1 ul .right li {
+  border-left: 2px solid white;
+  border-right: none;
+}
+.navbar1 .left li:last-child {
+  border-right: none;
+}
+.navbar1 .right li:first-child {
+  border-left: none;
+}
+.navbar1 li:hover {
+  background-color: #b90e4d;
+  cursor: pointer;
+}
